@@ -1,7 +1,7 @@
-import './suspense'
+import 'omi-suspense'
 import { userProfile, userPosts } from './state'
 import { fetchUserPosts, fetchUserProfile } from './api'
-import { Router } from '../src/router'
+import { Router } from 'omi-router'
 
 export const routes = [
   {
@@ -63,7 +63,9 @@ export const routes = [
             return responses
           }}
           onDataLoaded={(event: CustomEvent) => {
+            console.log(event.detail)
             userPosts.value = event.detail[0]
+
           }}
         >
           <div slot="pending">Loading user posts...</div>

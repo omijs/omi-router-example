@@ -1,5 +1,5 @@
 import { routes } from './routes'
-import { Router} from '../src/router'
+import { Router} from 'omi-router'
 
 
 const router = new Router({

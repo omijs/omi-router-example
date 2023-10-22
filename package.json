@@ -31,7 +31,6 @@
     "@typescript-eslint/parser": "^5.53.0",
     "@web/test-runner": "^0.13.15",
     "eslint": "^8.34.0",
-    "omi-suspense": "^0.0.2",
     "sass": "^1.37.5",
     "typescript": "^4.3.5",
     "vite": "^2.4.4",
