@@ -4,7 +4,6 @@ define('user-posts', class extends Component {
   userPosts: SignalValue<{ title: string, content: string }[]> | null = null
 
   render() {
-    console.error(this.userPosts?.value)
     return (
       <>
         <h3>User Posts</h3>
